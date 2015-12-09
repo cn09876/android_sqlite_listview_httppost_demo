@@ -106,7 +106,7 @@ public class FrmCRM extends Activity {
 						List<BasicNameValuePair> lst=new ArrayList<BasicNameValuePair>();
 						lst.add(new BasicNameValuePair("type","add"));
 						lst.add(new BasicNameValuePair("Data",dt));
-						app.sendHttpPost("http://www.ruiyingplan.com:81/crm.aspx",lst);
+						app.sendHttpPost("http://127.0.0.1/crm.aspx",lst);
 					}}).start();
 				
 				((EditText)findViewById(R.id.edt_name)).setText("");
@@ -244,7 +244,7 @@ public class FrmCRM extends Activity {
 							List<BasicNameValuePair> lst=new ArrayList<BasicNameValuePair>();
 							lst.add(new BasicNameValuePair("type","del"));
 							lst.add(new BasicNameValuePair("Data",dt));
-							app.sendHttpPost("http://www.ruiyingplan.com:81/crm.aspx",lst);
+							app.sendHttpPost("http://127.0.0.1/crm.aspx",lst);
 						}}
 					);
 
