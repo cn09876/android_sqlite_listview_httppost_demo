@@ -1,0 +1,152 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* etc/
+* etc/.DS_Store
+* etc/1.db
+* etc/2015-5-29 修改调整文档.doc
+* etc/UI_CRM/
+* etc/UI_CRM/Thumbs.db
+* etc/UI_CRM/上条.jpg
+* etc/UI_CRM/姓名.jpg
+* etc/UI_CRM/底图.jpg
+* etc/UI_CRM/按钮.png
+* etc/UI_CRM/整体效果.jpg
+* etc/UI_CRM/标记.jpg
+* etc/UI_报价界面/
+* etc/UI_报价界面/Thumbs.db
+* etc/UI_报价界面/上条.jpg
+* etc/UI_报价界面/下条.jpg
+* etc/UI_报价界面/中间黑色底图.jpg
+* etc/UI_报价界面/产品条框.jpg
+* etc/UI_报价界面/对号.jpg
+* etc/UI_报价界面/提交管理.png
+* etc/UI_报价界面/整体效果.jpg
+* etc/UI_报价界面/订单管理.png
+* etc/UI_整体界面/
+* etc/UI_整体界面/1.png
+* etc/UI_整体界面/2.png
+* etc/UI_整体界面/3333.png
+* etc/UI_整体界面/CRM管理-效果说明.jpg
+* etc/UI_整体界面/CRM管理.jpg
+* etc/UI_整体界面/Thumbs.db
+* etc/UI_整体界面/产品报价-产品单页.jpg
+* etc/UI_整体界面/产品报价-底图.jpg
+* etc/UI_整体界面/产品报价-效果.jpg
+* etc/UI_整体界面/产品报价-说明.jpg
+* etc/UI_整体界面/小区.jpg
+* etc/UI_整体界面/户型图报价.jpg
+* etc/UI_整体界面/按钮.png
+* etc/UI_购物车/
+* etc/UI_购物车/Thumbs.db
+* etc/UI_购物车/上购物区顶布.png
+* etc/UI_购物车/下结算区底布2.png
+* etc/UI_购物车/产品价格小标.png
+* etc/UI_购物车/产品框底图1.jpg
+* etc/UI_购物车/产品框底图2.jpg
+* etc/UI_购物车/效果图.jpg
+* etc/UI_购物车/添加图层按钮.png
+* etc/UI_购物车/移除图层按钮.png
+* etc/UI_购物车/结算按钮.png
+* etc/UI_购物车/购物车白色.png
+* etc/UI_购物车/购物车黑色.png
+* etc/UI_门选择界面/
+* etc/UI_门选择界面/11.jpg
+* etc/UI_门选择界面/Thumbs.db
+* etc/UI_门选择界面/下拉条.jpg
+* etc/UI_门选择界面/下拉条2.jpg
+* etc/UI_门选择界面/产品效果图.jpg
+* etc/UI_门选择界面/文字标头.png
+* etc/UI_门选择界面/未选择产品按钮.png
+* etc/UI_门选择界面/购物车1.png
+* etc/UI_门选择界面/购物车2.png
+* etc/UI_门选择界面/购物车按钮.png
+* etc/UI_门选择界面/选择产品按钮.png
+* etc/UI_门选择界面/选择产品按钮排列.png
+* etc/UI_门选择界面/门选择购物车11.png
+* etc/api_v3.txt
+* etc/jni/
+* etc/jni/.DS_Store
+* etc/jni/Android.mk
+* etc/jni/Application.mk
+* etc/jni/SunwayEx.c
+* etc/jni/SunwayEx.h
+* etc/jni/build.sh
+* etc/jni/md5c.c
+* etc/jni/md5c.h
+* etc/xml.schema.20150625.xml
+* etc/xml对接 20150512.txt
+* etc/平板进度_20150407.docx
+* etc/平板项目服务器与平板API.txt
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* libs/armeabi/libSunwayEx.so => app/src/main/jniLibs/armeabi/libSunwayEx.so
+* libs/armeabi/libdatabase_sqlcipher.so => app/src/main/jniLibs/armeabi/libdatabase_sqlcipher.so
+* libs/armeabi/libiconv.so => app/src/main/jniLibs/armeabi/libiconv.so
+* libs/armeabi/libsqlcipher_android.so => app/src/main/jniLibs/armeabi/libsqlcipher_android.so
+* libs/armeabi/libstlport_shared.so => app/src/main/jniLibs/armeabi/libstlport_shared.so
+* libs/core.jar => app/libs/core.jar
+* libs/zip4j_1.3.1.jar => app/libs/zip4j_1.3.1.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/com/sww/.DS_Store => app/src/main/resources/com/sww/.DS_Store
+* src/net/sqlcipher/IContentObserver.aidl => app/src/main/aidl/net/sqlcipher/IContentObserver.aidl
+* src/net/sqlcipher/database/package.html => app/src/main/resources/net/sqlcipher/database/package.html
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+/Users/cn09876/android/sdk
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

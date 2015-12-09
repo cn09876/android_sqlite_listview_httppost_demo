@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">示例1</string>
+    <string name="action_settings">退出</string>
+    <string name="hello_world">Hello world!</string>
+
+    <item name="tag1" type="id"></item>
+    <item name="tag2" type="id"></item>
+
+    <string name="title_activity_frm_village">FrmVillage</string>
+    <string name="title_activity_frm_crm">FrmCRM</string>
+    <string name="title_activity_frm_door_change">FrmDoorChange</string>
+    <string name="title_activity_frm_cart">FrmCart</string>
+
+</resources>

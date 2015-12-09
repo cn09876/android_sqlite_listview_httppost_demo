@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layer_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+    android:background="#ffffffff" >
+
+
+
+    <EditText
+        android:id="@+id/edt_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_f1"
+        android:textColor="#ff4499aa"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_border_f1"
+        android:textColor="#ff4499aa"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edt_xq"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_f1"
+        android:textColor="#ff4499aa"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff008888"
+        android:textColor="#ffffff00"
+        android:text="增加" />
+
+    <zrc.widget.ZrcListView
+        android:id="@+id/lst_crm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </zrc.widget.ZrcListView>
+
+</LinearLayout><!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/layout/activity_frm_crm.xml -->

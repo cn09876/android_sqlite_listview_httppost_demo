@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_message_test" type="id">false</item>
+    <item name="action_settings" type="id">false</item>
+    <item name="action_test_xml" type="id">false</item>
+    <item name="bg_9to1" type="id">false</item>
+    <item name="flip_jh" type="id">false</item>
+    <item name="helloworld" type="id">false</item>
+    <item name="imageView1" type="id">false</item>
+    <item name="progress" type="id">false</item>
+    <item name="progressBar1" type="id">false</item>
+    <item name="tab1" type="id">false</item>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <item name="tag1" type="id"/>
+    <item name="tag2" type="id"/>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="textView1" type="id">false</item>
+    <item name="txt_intro" type="id">false</item>
+    <item name="vPager" type="id">false</item>
+    <item name="web1" type="id">false</item>
+    <item name="wv" type="id">false</item>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">退出</string>
+    <string name="app_name">示例1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_frm_cart">FrmCart</string>
+    <string name="title_activity_frm_crm">FrmCRM</string>
+    <string name="title_activity_frm_door_change">FrmDoorChange</string>
+    <string name="title_activity_frm_village">FrmVillage</string>
+    <!-- From: file:/Users/cn09876/Library/Mobile%20Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light"/>
+    <style name="AppTheme" parent="@style/AppBaseTheme"/>
+</resources>

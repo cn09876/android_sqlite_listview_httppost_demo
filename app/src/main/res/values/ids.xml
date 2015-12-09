@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tab1">false</item>
+    <item type="id" name="wv">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="helloworld">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="bg_9to1">false</item>
+    <item type="id" name="vPager">false</item>
+    <item type="id" name="txt_intro">false</item>
+    <item type="id" name="flip_jh">false</item>
+    <item type="id" name="web1">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="progress">false</item>
+    <item type="id" name="action_settings">false</item>
+    <item type="id" name="action_test_xml">false</item>
+    <item type="id" name="action_message_test">false</item>
+</resources>

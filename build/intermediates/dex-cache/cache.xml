@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cn09876/android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/cn09876/Library/Mobile Documents/com~apple~CloudDocs/李耽/本地数据库及服务器同步例子/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-a476398cd93cc088cd69b51d30a3e879b5f450f2.jar" />
+    </item>
+
+</items>
